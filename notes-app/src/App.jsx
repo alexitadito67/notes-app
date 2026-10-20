@@ -1,4 +1,5 @@
 import NoteForm from "./components/NoteForm"
+import NoteList from "./components/NoteList"
 
 function App(){
   return (
@@ -8,7 +9,8 @@ function App(){
 
         {/* Entradas controladas en formas */}
         
-        <NoteForm />
+        <NoteForm notes= {notes} setNotes={setNotes} />
+        {/* Entradas controladas en formas */}
 
       </div>
     </>
